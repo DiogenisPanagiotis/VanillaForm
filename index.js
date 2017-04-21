@@ -24,7 +24,7 @@ function addJson() {
 function addMember(age, rel, smoker) {
   var listItem = document.createElement('li'); // create list item
   var html = capitalize(rel) + ', ' + age + ' years old'; // create list item text
-  smoker ? html += ', Smoker ' : html  + ' '; // check if smoker
+  smoker ? html += ', Smoker ' : html  += ' '; // check if smoker
   listItem.innerHTML = html;
   listItem.setAttribute('id', key); // add id attribute
 
