@@ -10,7 +10,7 @@ form.onsubmit = addJson; // declare json function
 
 function addJson() {
   var length = document.getElementsByClassName('household')[0]
-                           .getElementsByTagName('li').length;
+                       .getElementsByTagName('li').length;
   if (length <= 0) {
     validate();
   } else {
