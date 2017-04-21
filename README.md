@@ -6,10 +6,8 @@ individual people.
 
 ## Instructions
 
-``` bash
-# index.html
-Open index.html in your browser
-```
+> Open index.html file in your browser
+
 
 ## Task
 
